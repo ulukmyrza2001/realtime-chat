@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+.App {
+	text-align: center;
+}
+
+.form {
+	width: 400px;
+	padding: 2rem;
+	border: 1px solid rgb(59, 149, 135);
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+	align-items: flex-end;
+}
+.form input {
+	width: 100%;
+	padding: 0.4em 1em;
+	letter-spacing: 0.6px;
+	border: 1px solid rgb(59, 149, 135);
+	border-radius: 2px;
+}
+.form input:focus {
+	border: 2px solid blue;
+}
+.form button {
+	width: 50%;
+	padding: 0.4em 1em;
+	letter-spacing: 0.6px;
+	border: 1px solid rgb(59, 149, 135);
+	border-radius: 2px;
+	color: rgb(59, 149, 135);
+	background-color: transparent;
+}
+.form button:hover {
+	background-color: rgb(59, 149, 135);
+	color: white;
+	cursor: pointer;
+}
+.messages {
+	width: 400px;
+	padding: 2rem;
+	border: 1px solid rgb(59, 149, 135);
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+	align-items: flex-end;
+}
+.message {
+	padding: 1rem;
+	background-color: rgb(59, 149, 135);
+	color: white;
+	border-radius: 10px;
+}
